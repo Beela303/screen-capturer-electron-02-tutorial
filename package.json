@@ -1,0 +1,24 @@
+{
+  "name": "screen-capturer",
+  "version": "1.0.0",
+  "description": "A screen capturing app using Electron",
+  "homepage": "https://github.com/Beela303/screen-capturer-electron-02-tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/Beela303/screen-capturer-electron-02-tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beela303/screen-capturer-electron-02-tutorial.git"
+  },
+  "license": "ISC",
+  "author": "Nabila Abubakar",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^39.2.6"
+  }
+}
