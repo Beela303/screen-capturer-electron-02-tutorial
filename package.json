@@ -10,16 +10,29 @@
     "type": "git",
     "url": "git+https://github.com/Beela303/screen-capturer-electron-02-tutorial.git"
   },
+  "build": {
+    "appId": "com.qb.screencapturer",
+    "productName": "Screen Capturer",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "icon": "assets/favicon"
+  },
   "license": "ISC",
   "author": "Nabila Abubakar",
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
     "start": "nodemon --ext js,css,html --exec electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
   },
   "devDependencies": {
     "electron": "^39.2.6",
+    "electron-builder": "^26.0.12",
     "nodemon": "^3.1.11"
   }
 }
